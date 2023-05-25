@@ -3,18 +3,25 @@ body{
   background-color: white;
 }
 img{
-    margin-top: 1rem;
+    margin-bottom: 60px;
     width: 200px;
     height:200px;
     display: flex;
     align-items: center;
     justify-content: center;
+  
     /* border: 2px solid; */
-    box-shadow:2px 2px 5px 12px whitesmoke;
-    padding: 10px;
-    border-radius: 5px;
+    /* box-shadow:2px 2px 5px 12px whitesmoke; */
+    /* padding: 10px;
+    border-radius: 5px; */
 }
 .image{
+  background: url(../Assets/img/back.png);
+  height: 600px;
+  /* width: 600px; */
+  background-size: contain;
+  /* background-attachment: scroll; */
+  background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +29,7 @@ img{
     /* background: url(); */
 }
 .paragarap p{
-    margin-top: 40px;
+    margin-top: -40px;
     color: black;
     width: 100%;
     background-color: white;
@@ -30,9 +37,12 @@ img{
     font-family: 'Lora', serif;
     text-align: center;
     text-indent: 30px;
-    -webkit-box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75);
+    box-shadow:2px 2px 5px 12px whitesmoke; 
+    padding: 10px;
+    border-radius: 5px;
+    /* -webkit-box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75); */
    
 }
 .color{
@@ -66,26 +76,31 @@ font-family: 'Noto Serif', serif;
 font-size: 20px;
 font-weight: bolder;
 text-align: center;
+    /* border-radius: 5px; */
+    box-shadow:2px 2px 5px 12px whitesmoke; 
+    padding: 10px;
+    border-radius: 5px;
+
 }
 h6{
-  color: white;
+  color: black;
 font-family: 'Noto Serif', serif;
 font-weight: bolder;
 text-align: center;
-font-size: 20px;
+font-size: 15px;
 margin-bottom: 20px;
 }
-h6 small{
+/* h6 small{
     color: black;
   font-family: 'Noto Serif', serif;
   font-weight: bolder;
   text-align: center;
   font-size: 15px;
   margin-bottom: 20px;
-  }
+  } */
 h6 a{
   text-decoration: none;
-  color: #555;
+  color: black;
 }
 h6 i{
   color: red;
